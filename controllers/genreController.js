@@ -132,7 +132,7 @@ exports.genre_update_get = function(req, res, next) {
 			if (err) { return next(err); }		
 			
 			const context = {
-				title: 'Create Genre',
+				title: 'Update Genre',
 				genre: genre_to_be_updated
 				
 			};
